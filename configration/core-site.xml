@@ -1,0 +1,30 @@
+  <configuration>
+    
+    <property>
+      <name>fs.defaultFS</name>
+      <value>hdfs://172.16.102.137:8020</value>
+    </property>
+    
+    <property>
+      <name>hadoop.http.authentication.simple.anonymous.allowed</name>
+      <value>true</value>
+    </property>
+    
+    
+    <property>
+      <name>hadoop.security.authentication</name>
+      <value>kerberos</value>
+    </property>
+    
+    <property>
+      <name>hadoop.security.authorization</name>
+      <value>true</value>
+    </property>
+    
+    <property>
+      <name>hadoop.security.key.provider.path</name>
+      <value></value>
+    </property>
+    
+    
+  </configuration>
